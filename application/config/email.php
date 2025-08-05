@@ -11,6 +11,7 @@ $config['protocol']  = 'smtp';
 $config['smtp_host'] = 'smtp.gmail.com';
 $config['smtp_port'] = 587;
 $config['smtp_user'] = 'jiwanbayalkoti@gmail.com'; 
+$config['smtp_pass'] = 'owkdobdeklzxchau'; 
 $config['smtp_auth'] = TRUE;
 $config['smtp_crypto'] = 'tls'; 
 $config['mailtype']  = 'text';

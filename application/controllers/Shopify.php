@@ -17,6 +17,7 @@ class Shopify extends CI_Controller {
         $shop_url = 'https://gyrovi-test.myshopify.com';
         $rest_url = $shop_url . '/admin/api/2025-07/inventory_items/' . $inventory_item_id . '.json';
         
+        $access_token = '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';
         
         $headers = [
             'X-Shopify-Access-Token: ' . $access_token,
@@ -69,6 +70,7 @@ class Shopify extends CI_Controller {
         $shop_url = 'https://gyrovi-test.myshopify.com';
         $graphql_url = $shop_url . '/admin/api/2025-07/graphql.json';
         
+        $access_token = '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';
         
         // GraphQL query to get product variants by SKU
         $query = '
