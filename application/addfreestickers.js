@@ -2,7 +2,7 @@ let mainProductVariantId = 36110175633573;
 let mainProductQuantity = 2;
 
 // Fetch free sticker product data first
-fetch('https://gyrovi-test.myshopify.com/products/free-sticker.js')
+fetch('https://gyrovi-test.myshopify.com/products/free-sticker')
   .then(response => response.json())
   .then(product => {
     // Get the variant ID of the free sticker
